@@ -225,7 +225,7 @@ a {
 .testimonio-imagen {
   height: 150px;
   width: 150px;
-  margin: 10px 10px 20px 10px;
+  /* margin: 10px 10px 20px 10px; */
 }
 
 .testimonio-texto {
