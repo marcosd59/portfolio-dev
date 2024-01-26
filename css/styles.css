@@ -1,0 +1,122 @@
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  font-family: "Quicksand", sans-serif;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Barra de navegación */
+
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Seccion Hero */
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.her-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* Sobre mí */
+
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Adaptable "responsive" */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
