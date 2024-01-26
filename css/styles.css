@@ -201,7 +201,30 @@ a {
 
 /* Testimonios */
 
-.testimonios {
+.testimonio-imagen {
+  height: 50%;
+  width: 50%;
+  margin: 10px 10px 20px 10px;
+} */
+
+.testimonios .carousel .slide{
+  max-width: 800px;
+}
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+ .testimonios {
   padding: 40px 40px 80px 40px;
 }
 
@@ -225,7 +248,7 @@ a {
 .testimonio-imagen {
   height: 150px;
   width: 150px;
-  /* margin: 10px 10px 20px 10px; */
+  margin: 10px 10px 20px 10px;
 }
 
 .testimonio-texto {
