@@ -201,79 +201,54 @@ a {
 
 /* Testimonios */
 
-.testimonio-imagen {
-  height: 50%;
-  width: 50%;
-  margin: 10px 10px 20px 10px;
-} */
-
-.testimonios .carousel .slide{
-  max-width: 800px;
-}
-.carousel-item {
-  height: 100%;
-  width: 100%;
+.carousel-inner .imagen img {
+    width: 50%;
+    margin: auto; /* Centrar la imagen horizontalmente */
 }
 
-.carousel-item .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
- .testimonios {
-  padding: 40px 40px 80px 40px;
+.carousel-control-prev, .carousel-control-next {
+    color: black; /* Cambia el color de los iconos a negro */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    border-radius: 50%; /* Hace los botones circulares */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
 }
 
-.testimonios .carousel {
-  max-width: 800px;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 30px; /* Ancho del icono */
+    height: 30px; /* Altura del icono */
 }
 
-.carousel-item {
-  height: 500px;
+.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Posiciona los botones a la mitad de la altura */
+    transform: translateY(-50%); /* Desplaza los botones hacia arriba en un 50% de su altura para centrarlos verticalmente */
+}
+#carouselExample {
+    max-width: 80%; /* O el ancho que prefieras */
+    margin: auto; /* Esto centrará el carrusel horizontalmente */
+    margin-bottom: 100px;
 }
 
-.carousel-item .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.carousel-control-prev, .carousel-control-next {
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    top: 50%; /* Posiciona los botones verticalmente al centro */
+    transform: translateY(-50%); /* Alinea los botones verticalmente al centro */
 }
 
-.testimonio-imagen {
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 10px;
+.carousel-control-prev {
+    left: -25px; /* Ajusta la posición del botón izquierdo si es necesario */
 }
 
-.testimonio-texto {
-  max-width: 70%;
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+.carousel-control-next {
+    right: -25px; /* Ajusta la posición del botón derecho si es necesario */
 }
 
-.testimonio-info {
-  font-weight: bold;
-  text-align: center;
-}
 
-.testimonio-info p {
-  margin-bottom: 0;
-}
+/* Prueba */
 
-.testimonio-footer .cliente {
-  font-size: 1.2rem;
-}
-
-.testimonio-info .cargo {
-  font-size: 0.9rem;
-  color: #656060;
+#prueba{
+  padding-top: 100px;
 }
 
 /* Contacto */
@@ -413,5 +388,11 @@ footer {
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #prueba {
+    display: none;
   }
 }
